@@ -1,0 +1,5 @@
+import{j as i}from"./iframe-DR2fKmk8.js";import"./preload-helper-PPVm8Dsz.js";const t=({value:r,placeholder:a,onChange:n,disabled:s})=>i.jsx("input",{value:r,placeholder:a,disabled:s,onChange:o=>n?.(o.target.value),style:{padding:8,borderRadius:4,border:"1px solid #ccc",width:200}});t.__docgenInfo={description:"",methods:[],displayName:"Input",props:{value:{required:!1,tsType:{name:"string"},description:""},placeholder:{required:!1,tsType:{name:"string"},description:""},onChange:{required:!1,tsType:{name:"signature",type:"function",raw:"(value: string) => void",signature:{arguments:[{type:{name:"string"},name:"value"}],return:{name:"void"}}},description:""},disabled:{required:!1,tsType:{name:"boolean"},description:""}}};const u={title:"Components/Input",component:t,tags:["autodocs"]},e={args:{placeholder:"Enter text"}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
+  args: {
+    placeholder: 'Enter text'
+  }
+}`,...e.parameters?.docs?.source}}};const c=["Default"];export{e as Default,c as __namedExportsOrder,u as default};
