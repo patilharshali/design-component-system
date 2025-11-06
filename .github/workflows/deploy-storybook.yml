@@ -27,7 +27,7 @@ jobs:
         run: npm run build-storybook
 
       - name: Deploy to GitHub Pages (Root - Latest)
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./storybook-static
@@ -35,7 +35,7 @@ jobs:
 
       - name: Deploy to GitHub Pages (Versioned)
         if: startsWith(github.ref, 'refs/tags/v')
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./storybook-static
